@@ -1,0 +1,179 @@
+
+body {
+	background: rgb(200,200,200);
+
+}
+
+#score,#best{
+	font-family: sans-serif;
+	font-weight: 700;
+	width: 45px;
+	height: 25px;
+	padding: 3px 0 0 0;
+	text-align: center;
+	background: rgba(200,250,250,1);
+	border: 3px solid #00FFFF;
+	border-radius: 8px;
+	color: #f0a;
+	margin: 5px 5px 5px auto;
+}
+
+#best{
+	
+	color: #a0b;
+	
+}
+
+
+ p {
+ 	color: rgb(	85,0,255);
+	font-family: cursive;
+	font-size: 85%;
+	font-weight: 700;
+
+}
+#affich{
+	margin-bottom: 5px;
+}
+#affich p {
+	
+	margin: 5px 2px 5px 10px;
+
+	
+}
+
+a {
+	text-decoration:none;
+	color: rgb(	85,0,255);
+}
+table {
+
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 8px;
+
+}
+#game table{
+	
+	
+	border: 2px solid rgba(200,10,15,0.5);
+	background: rgb(200,200,220);
+	width: 80%;
+	
+	
+}
+input[type=number]{
+	text-align: center;
+	background: #bbb;
+	border: 1px solid rgba(150,0,0,.3);
+	color: blue;
+	size: 50px;
+	border-radius: 8px;
+	font-weight: 900;
+	font-size: 160%;
+	font-family: cursive;
+	min-width: 100%;
+	height: 40px;
+}
+
+@media screen and (max-width: 680px){
+input[type=number]{
+	
+	font-weight: 800;
+	font-size: 120%;
+	width: 40px;
+	height: 30px;
+}
+}
+
+#replay,#replay1 {
+	display: none;
+	position: relative;
+	border: 3px solid #00FFFF;
+	background: rgba(200,250,250,.8);
+	width: 240px;
+	text-align: center;
+	
+}
+#replay1{
+	border: 3px solid #ba0;
+}
+
+button {
+	width: 80px;
+	height: 40px;
+	padding: 2px;
+	font-weight: 900;
+	font-family: cursive;
+	margin: 5px 15px 5px 15px;
+	border-radius: 8px;
+	background: #00FFFF;
+	border: 3px solid rgba(255,0,170,1);
+	color: rgb(	85,0,255);
+}
+#replay1 button{
+	margin-top: 0px;
+
+}
+
+
+#yourScore{
+	font-size: 120%;
+	font-weight: 900;
+	color: rgb(	85,0,255);
+	font-family: cursive;
+
+
+}
+#pScore {
+	margin: 5px 10px 0 20px;
+	color: rgb(	85,0,255);
+	font-family: cursive;
+}
+#setting{
+	
+	text-align: center;
+	margin: 10px auto auto auto;
+	width: 50x;
+	height: 20px;
+	opacity: 0.8
+	border-radius: 5px;
+}
+#seting{
+	width: 25px;
+	height: 18px;
+	border: 2px solid rgba(200,10,15,0.5);
+	border-radius: 8px;
+	background: rgb(200,250,250);
+	font-weight: 900;
+	font-size: 170%;
+
+}
+#menu{
+	background: rgba(120,80,250,.2);
+	border-radius: 8px;
+	border: 2px solid rgba(0,150,185,0.5);
+	padding: 10px;
+	margin-top: 20px;
+
+	
+}
+#menu button
+{
+	width: 100px;
+}
+#img{
+	margin-top: 3px;
+	text-align: center;
+	border-radius: 8px;
+	border: 2px solid rgba(120,80,250,.2); 
+}
+img
+{
+	max-width: 250px;
+
+}
+h3 {
+	text-align: center;
+	color: rgb(	85,0,255); 
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title></title>
+  
+  <link rel="stylesheet" type="text/css" href="css/stylegamenum.css">
+  
+  
+</head>
+
+<body onload="onLoad();">
+
+<table id="affich" class="level1">
+  <tr>
+    <td><p>Score</p></td><td><div id="score">100</div></td><!--td> <p>Best Score</p></td><td><div id="best">00</div></td-->
+  </tr>
+</table>
+
+
+<div id="game">
+
+  <table class="level1">
+    <tr>
+     <td><input type="number" id="1" max="9" min="0" autofocus="on"/></td>
+     <td><input type="number" id="2" max="9" min="0"/></td>
+     <td><input type="number" id="3" max="9" min="0"/></td>
+     <td><input type="number" id="4" max="9" min="0"/></td>
+     </tr>
+    <tr >
+     <td><input type="number" id="5" max="9" min="0"/></td>
+     <td><input type="number" id="6" max="9" min="0"/></td>
+     <td><input type="number" id="7" max="9" min="0"/></td>
+     <td><input type="number" id="8" max="9" min="0"/></td>
+      </tr>
+    <tr >
+      <td><input type="number" id="9" max="9" min="0"/></td>
+      <td><input type="number" id="10" max="9" min="0"/></td>
+      <td><input type="number" id="11" max="9" min="0"/></td>
+      <td><input type="number" id="12" max="9" min="0"/></td>
+    </tr>
+    <tr>
+      <td><input type="number" min="0" max="9"  id="13"/></td>
+      <td><input type="number" min="0" max="9"  id="14"/></td> 
+      <td><input type="number" min="0" max="9"  id="15"/></td>
+      <td><input type="number" min="0" max="9"  id="16"/></td>
+        </tr>
+    <tr>
+      <td><input type="number" min="0" max="9"  id="17"/></td>
+      <td><input type="number" min="0" max="9"  id="18"/></td>              
+      <td><input type="number" min="0" max="9"  id="19"/></td>
+      <td><input type="number" min="0" max="9"  id="20"/></td>
+    </tr>
+
+    </table>
+
+    <a href="setting.html">
+        <div id="setting" class="level1">
+
+            <p><span id="seting">*</span> Setting</p>
+
+        </div>
+    </a>
+</div>
+
+    <br />
+    <br />
+
+<table id="replay">
+<tr id="afich">
+    <td><h2 id="pScore">Good !</h2></td><td><p>Score: <span id="yourScore"></span></p></td>
+  </tr>
+  <tr>
+    <td><a href="index.html"><button>Replay</button></a></td><td><button id="exit">Exit</button></td>
+  </tr>
+</table>  
+
+<table id="replay1">
+<tr>
+    <td><p>Failed<span style="font-weight: 900; font-size: 120%; color: #f00;"> ! </span>try again</p><td><p>Solution:<span id="numb"></span></p></td>
+  </tr>
+  <tr>
+     <td><a href="index.html"><button>Replay</button></a></td><td><button id="exit1">Exit</button></td>
+  </tr>
+</table>
+
+
+
+
+
+  <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+  <script type="text/javascript" src="js/gamenum1.js"></script>
+  <script type="text/javascript" src="js/score.js"></script>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/banner.js"></script>
+ 
+  
+  
+  
+</body>
+</html>
